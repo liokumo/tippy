@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABD1764F1F3ADD2200546AD0 /* SetPercentageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1764E1F3ADD2200546AD0 /* SetPercentageViewController.swift */; };
+		ABD176531F3ADEB400546AD0 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD176521F3ADEB400546AD0 /* SettingsTableViewController.swift */; };
 		ABD6F5541F397296005C6B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD6F5531F397296005C6B32 /* AppDelegate.swift */; };
 		ABD6F5561F397296005C6B32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD6F5551F397296005C6B32 /* ViewController.swift */; };
 		ABD6F5591F397296005C6B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD6F5571F397296005C6B32 /* Main.storyboard */; };
@@ -14,7 +16,6 @@
 		ABD6F55E1F397296005C6B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD6F55C1F397296005C6B32 /* LaunchScreen.storyboard */; };
 		ABD6F5691F397297005C6B32 /* tippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD6F5681F397297005C6B32 /* tippyTests.swift */; };
 		ABD6F5741F397297005C6B32 /* tippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD6F5731F397297005C6B32 /* tippyUITests.swift */; };
-		ABD6F5821F397D75005C6B32 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD6F5811F397D75005C6B32 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ABD1764E1F3ADD2200546AD0 /* SetPercentageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetPercentageViewController.swift; sourceTree = "<group>"; };
+		ABD176521F3ADEB400546AD0 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		ABD6F5501F397296005C6B32 /* tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD6F5531F397296005C6B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABD6F5551F397296005C6B32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +51,6 @@
 		ABD6F56F1F397297005C6B32 /* tippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD6F5731F397297005C6B32 /* tippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippyUITests.swift; sourceTree = "<group>"; };
 		ABD6F5751F397297005C6B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABD6F5811F397D75005C6B32 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +104,11 @@
 				ABD6F5531F397296005C6B32 /* AppDelegate.swift */,
 				ABD6F5551F397296005C6B32 /* ViewController.swift */,
 				ABD6F5571F397296005C6B32 /* Main.storyboard */,
-				ABD6F5811F397D75005C6B32 /* SettingsViewController.swift */,
 				ABD6F55A1F397296005C6B32 /* Assets.xcassets */,
 				ABD6F55C1F397296005C6B32 /* LaunchScreen.storyboard */,
 				ABD6F55F1F397296005C6B32 /* Info.plist */,
+				ABD1764E1F3ADD2200546AD0 /* SetPercentageViewController.swift */,
+				ABD176521F3ADEB400546AD0 /* SettingsTableViewController.swift */,
 			);
 			path = tippy;
 			sourceTree = "<group>";
@@ -266,8 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABD6F5561F397296005C6B32 /* ViewController.swift in Sources */,
+				ABD176531F3ADEB400546AD0 /* SettingsTableViewController.swift in Sources */,
 				ABD6F5541F397296005C6B32 /* AppDelegate.swift in Sources */,
-				ABD6F5821F397D75005C6B32 /* SettingsViewController.swift in Sources */,
+				ABD1764F1F3ADD2200546AD0 /* SetPercentageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +522,7 @@
 				ABD6F57A1F397297005C6B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABD6F57B1F397297005C6B32 /* Build configuration list for PBXNativeTarget "tippyTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				ABD6F57D1F397297005C6B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABD6F57E1F397297005C6B32 /* Build configuration list for PBXNativeTarget "tippyUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				ABD6F5801F397297005C6B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
